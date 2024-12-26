@@ -44,6 +44,30 @@ Ensure both `example.c` and `usic.c` are in the same directory when compiling.
 
 ---
 
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/muhsinzara/unlimited-string-in-C.git
+   cd unlimited-string-in-C
+   ```
+2. Compile the program using `gcc`:
+   ```bash
+   gcc example.c -o dynamic_input
+   ```
+3. Make sure to include the following headers in your code to use `getUS`:
+   ```c
+   #include <stdio.h>
+   #include <stdlib.h>
+   ```
+4. Run the compiled program:
+   ```bash
+   ./dynamic_input
+   ```
+5. Enter a string when prompted and see the program handle it dynamically.
+
+---
+
 ## Example Output
 
 ```text
